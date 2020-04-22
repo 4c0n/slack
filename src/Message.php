@@ -16,7 +16,7 @@ namespace Nexy\Slack;
 /**
  * @author Sullivan Senechal <soullivaneuh@gmail.com>
  */
-final class Message
+final class Message implements MessageInterface
 {
     /**
      * Reference to the Slack client responsible for sending
